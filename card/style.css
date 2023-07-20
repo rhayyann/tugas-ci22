@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3EC089;
+    overflow: hidden;
+}
+
+.background{
+    z-index: -1;
+    position: absolute;
+}
+
+.background h1{
+    font-size: 125px;
+    font-weight: 900px;
+    margin-bottom: -67px;
+}
+
+.text{
+    margin-top: -67px;
+}
+
+.text h1{
+    font-size: 125px;
+    font-weight: 900px;
+    color: #FFFFFF;
+}
+
+.card {
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    background-color: #28313C;
+    overflow: hidden;
+}
+
+.card .picture {
+    position: relative;
+    padding: 20px;
+}
+
+.card .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.card .card-header {
+    padding: 0px 20px 10px 20px;
+}
+
+.card .card-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #3EC089;
+}
+
+.card .caption {
+    padding: 0px 20px 20px 20px;
+}
+
+.card .caption p {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.button {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .button button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #3EC089;
+    color: #FFFFFF;
+}
+
+.card .button button:hover{
+    background-color: #469B77;
+}
